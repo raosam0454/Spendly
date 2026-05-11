@@ -1,3 +1,9 @@
+//
+//  BudgetsView.swift
+//  Spendly
+//
+//  Created by Dhairya Shah on 5/5/2026.
+//
 import SwiftUI
 import SwiftData
 
