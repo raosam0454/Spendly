@@ -34,8 +34,8 @@ Budget & Expense Tracker for university students.
 3. Build and run on iOS 17+ simulator or device
 
 ## Team
-- Sam - Initial app architecture and models , Bug fixes Feature: The main dashboard
-- Kunj - Created the AnalyticsViewModel that processes all transaction data into meaningful insights including category-wise spending breakdowns, monthly trend calculations, and top expense identification. Built a SwiftUI analytics screen featuring interactive pie charts, bar graphs, and trend lines that visually represent the user's spending patterns over time. Integrated filtering options to allow users to view analytics by custom date ranges and specific categories.
+- Sam - Enhanced initial app architecture and models , Bug fixes Feature: The main dashboard
+- Kunj - Intial full architecture of our application and created the AnalyticsViewModel that processes all transaction data into meaningful insights including category-wise spending breakdowns, monthly trend calculations, and top expense identification. Built a SwiftUI analytics screen featuring interactive pie charts, bar graphs, and trend lines that visually represent the user's spending patterns over time. Integrated filtering options to allow users to view analytics by custom date ranges and specific categories.
 - Dhairya - Created a specific BudgetsViewModel that contains all computations, persistence, and logic pertaining to the budget. Created a SwiftUI finances screen that offers a clear user experience for managing finances by utilizing a grid of cards, sheets, and navigation. Budget templates have been added for easy setup, and customers will receive alerts when their budget is approaching or exceeded.
 - Jenil - 
 
