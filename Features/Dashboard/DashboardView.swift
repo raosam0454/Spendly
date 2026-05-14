@@ -274,8 +274,8 @@ struct TransactionRowView: View {
             }
             Spacer()
             VStack(alignment: .trailing, spacing: 2) {
-                Text((transaction.type == .income ? "+" : "-") + transaction.amount.formatted(.currency(code: settings.selectedCurrencyCode)))
-                    .font(.subheadline.bold())
+                Text((transaction.type == .income ? "+" : "-") + (transaction.amount * settings.conversionRate).formatted(.currency(code: settings.selectedCurrencyCode)))
+                                    .font(.subheadline.bold())
                     .foregroundStyle(transaction.type == .income ? .green : .red)
                 Text(transaction.date, style: .date).font(.caption2).foregroundStyle(.secondary)
             }
