@@ -239,7 +239,7 @@ struct SummaryCard: View {
                 Image(systemName: icon).foregroundStyle(color)
                 Text(title).font(.caption).foregroundStyle(.secondary)
             }
-            Text(amount, format: .currency(code: settings.selectedCurrencyCode)).font(.title3.bold())
+            Text(amount * settings.conversionRate, format: .currency(code: settings.selectedCurrencyCode)).font(.title3.bold())
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding()
