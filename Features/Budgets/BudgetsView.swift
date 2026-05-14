@@ -159,7 +159,7 @@ struct BudgetCategoryCard: View {
                 .lineLimit(2)
             if let b = budget {
                 VStack(spacing: 2) {
-                    Text("\(spent.formatted(.currency(code: settings.selectedCurrencyCode))) / \(b.monthlyLimit.formatted(.currency(code: settings.selectedCurrencyCode)))")
+                    Text("\((spent * settings.conversionRate).formatted(.currency(code: settings.selectedCurrencyCode))) / \((b.monthlyLimit * settings.conversionRate).formatted(.currency(code: settings.selectedCurrencyCode)))")
                         .font(.caption2).foregroundStyle(.secondary)
                     Text("\(Int(progress * 100))%")
                         .font(.caption.bold()).foregroundStyle(progressColor)
