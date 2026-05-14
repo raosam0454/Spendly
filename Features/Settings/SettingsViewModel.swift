@@ -129,6 +129,11 @@ final class SettingsViewModel: ObservableObject {
         isLoadingCurrencies = false
     }
 
+    var conversionRate: Double {
+        if selectedCurrencyCode == "AUD" { return 1.0 }
+        return availableCurrencies.first(where: { $0.code == selectedCurrencyCode })?.rate ?? 1.0
+    }
+    
     // clear data
 
     func clearAllData(dataService: DataService) {
