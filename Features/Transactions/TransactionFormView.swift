@@ -241,6 +241,11 @@ struct TransactionFormView: View {
     }
 
     private func handleSave() {
+        guard viewModel.validateTitle(),
+              viewModel.validateAmount(),
+              viewModel.validateCategory() else {
+            return
+        }
         do {
             try viewModel.save()
             NotificationCenter.default.post(name: .spendlyTransactionChanged, object: nil)
