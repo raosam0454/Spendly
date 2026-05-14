@@ -36,7 +36,7 @@ Budget & Expense Tracker for university students.
 ## Team
 - Sam - Enhanced initial app architecture and models , Bug fixes Feature: The main dashboard
 - Kunj - Intial full architecture of our application and Analytics page spending charts, category breakdown & trend analysis. UI improvements and bug fixes.
-- Dhairya - Created a specific BudgetsViewModel that contains all computations, persistence, and logic pertaining to the budget. Created a SwiftUI finances screen that offers a clear user experience for managing finances by utilizing a grid of cards, sheets, and navigation. Budget templates have been added for easy setup, and customers will receive alerts when their budget is approaching or exceeded.
+- Dhairya - I built a budgeting screen that lets people easily set and track their spending using simple cards, ready‑made budget setups, and warnings when they’re close to or over their limit along with bug fixes.
 - Jenil - Contributed in the app design, Handled Transaction feature and bug fixes
 
 ## GitHub
