@@ -34,10 +34,13 @@ Budget & Expense Tracker for university students.
 3. Build and run on iOS 17+ simulator or device
 
 ## Team
-- Sam - Enhanced initial app architecture and models , Bug fixes Feature: The main dashboard
-- Kunj - Intial full architecture of our application and Analytics page spending charts, category breakdown & trend analysis. UI improvements and bug fixes.
-- Dhairya - I built a budgeting screen that lets people easily set and track their spending using simple cards, ready‑made budget setups, and warnings when they’re close to or over their limit along with bug fixes.
-- Jenil - Contributed in the app design, Handled Transaction feature and bug fixes
+- Sumangala Somashekhara Rao(Student Id: 25760517) - Enhanced initial app architecture and models , Bug fixes Feature: The main dashboard.
+  
+- Kunj Jariwala(Student Id: 25534379 )- Intial full architecture of our application and Analytics page spending charts, category breakdown & trend analysis. UI improvements and bug fixes.
+  
+- Dhairya Sandeep Shah (2554757 )- I built a budgeting screen that lets people easily set and track their spending using simple cards, ready‑made budget setups, and warnings when they’re close to or over their limit along with bug fixes.
+
+- Jenil Vijaykumar Patel (Student Id: 25597511)- Contributed in the app design, Handled Transaction feature and bug fixes.
 
 ## GitHub
 https://github.com/raosam0454/Spendly
